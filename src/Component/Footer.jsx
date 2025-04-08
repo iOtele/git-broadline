@@ -13,14 +13,12 @@ const Footer = () => {
   return (
     <>
       {" "}
-      <div className="bg-blue-950 flex max-sm:flex-col  justify-between gap-6 decoration-0 text-gray-400 p-5 sm:px-10">
-        <div className="flex flex-col flex-1">
+      <div className="bg-blue-950 flex max-sm:flex-col  justify-between gap-6 decoration-0 text-gray-400 p-6 sm:px-11">
+        <div className="flex flex-col">
           <Link to="/">
-            <img src={Assets.Logo_1} alt="" className="p-1.5 w-20 h-20 " />
+            <img src={Assets.Logo_1} alt="" className=" p-1 w-20 h-20 " />
           </Link>
-          <p className="px-1">
-            Leading the way in private aviation excellence since 2025
-          </p>
+          <p>Leading the way in private aviation excellence since 2025</p>
         </div>
         <div className="flex flex-col flex-1">
           <h3 className="text-xl font-semibold mb-3 ">Quick Links</h3>
