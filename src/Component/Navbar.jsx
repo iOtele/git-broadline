@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <nav
         aria-label="Global"
-        className="bg-white sticky top-0 z-40 flex  max-sm:backdrop-blur-sm max-sm:posit  items-center justify-between px-5 sm:px-10 śh-20 w-full"
+        className="bg-white sticky top-0 z-40 flex  max-sm:backdrop-blur-sm max-sm:posit  items-center justify-between px-5 sm:px-10 h-20 w-full"
       >
         <div className="flex lg:flex-1">
           <Link to="/">

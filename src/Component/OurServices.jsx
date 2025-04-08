@@ -8,11 +8,11 @@ const OurServices = () => {
     <div className="flex flex-col items-center py-10 mt-5 shadow-black ">
       <h1 className="text-3xl font-semibold">Our Services</h1>
 
-      <div className="flex justify-center items-center gap-6 max-sm:flex-col px-11 w-full shadow-amber-800 pt-6">
+      <div className="flex justify-center items-center  gap-6 max-sm:flex-col px-7 sm:px-11 w-full shadow-amber-800 pt-6">
         {Services.map((service, index) => (
           <div
             key={index}
-            className="flex  text-left shadow-lg rounded-lg p-4 w-72 md:w-md flex-col gap-4"
+            className="lex text-left shadow-lg rounded-lg p-4 w-full md:w-md flex-col gap-4"
           >
             <div>{service.icon}</div>
 

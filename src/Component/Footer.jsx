@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       {" "}
-      <div className="bg-blue-950 flex max-sm:flex-col  justify-between p-10 gap-6 decoration-0 text-gray-400">
+      <div className="bg-blue-950 flex max-sm:flex-col  justify-between gap-6 decoration-0 text-gray-400 p-5 sm:px-10">
         <div className="flex flex-col flex-1">
           <Link to="/">
             <img src={Assets.Logo_1} alt="" className="p-1.5 w-20 h-20 " />

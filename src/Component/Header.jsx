@@ -23,10 +23,10 @@ const Header = () => {
             className="flex
       gap-5 mt-8 flex-col sm:flex-row md:justify-start   justify-center items-center "
           >
-            <button className="bg-blue-800  text-nowrap p-2 px-6 rounded-md text-xl max-w-[200px] text-white  hover:bg-white hover:text-blue-800 transition duration-300 cursor-pointer">
+            <button className="bg-blue-800  text-nowrap p-2 px-6 rounded-md text-lg sm:text-xl w-[150px] text-white  hover:bg-white hover:text-blue-800 transition duration-300 cursor-pointer">
               View Listings
             </button>
-            <button className="bg-white  text-nowrap p-2 px-6 rounded-md text-xl text-blue-800 max-w-[200px] hover:bg-blue-800 hover:text-white transition duration-300 cursor-pointer">
+            <button className="bg-white  text-nowrap p-2 px-6 rounded-md text-lg sm:text-xl text-blue-800 w-[150px] hover:bg-blue-800 hover:text-white transition duration-300 cursor-pointer">
               Contact Us
             </button>
           </div>
