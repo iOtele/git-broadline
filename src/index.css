@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-white: #ffffff;
+  --color-blue: #173679;
+  --color-gray: #;
+
+  --font-family-sans: "B612", sans-serif;
+  --font-family-serif: "B612", serif;
+}
+@layer base {
+  body {
+    font-family: var(--font-family-sans);
+    background-color: var(--color-white);
+    color: var(--color-blue);
+  }
+
+  h3 {
+    color: var(--color-white);
+  }
+  li {
+    font-size: 1rem;
+  }
+}
