@@ -2,7 +2,7 @@ import React from "react";
 
 const Consultation = () => {
   return (
-    <div className="bg-blue-800 flex flex-col items-center justify-center text-white p-5 sm:px-10">
+    <div className="bg-blue-800 flex flex-col items-center justify-center text-white p-7 sm:px-11">
       <h2 className="text-2xl font-semibold">
         Ready to Elevate Your Aviation Experience?
       </h2>
