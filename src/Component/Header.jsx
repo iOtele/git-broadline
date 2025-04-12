@@ -7,7 +7,7 @@ const Header = () => {
       <div className="w-full relative">
         <img
           src={Assets.Hero_img}
-          className="sm:h-[95vh] h-[100vh] w-full "
+          className="sm:h-[95vh] h-screen w-full "
           alt=""
         />
 
@@ -21,7 +21,7 @@ const Header = () => {
 
           <div
             className="flex
-      gap-5 mt-8 flex-col sm:flex-row md:justify-start   justify-center items-center "
+      gap-5 mt-14 flex-col sm:flex-row md:justify-start   justify-center items-center "
           >
             <button className="bg-blue-800  p-2 px-6 rounded-md sm:text-xl w-[150px] sm:w-[180px] text-white  hover:bg-white hover:text-blue-800 transition duration-300 cursor-pointer">
               View Listings

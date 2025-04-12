@@ -37,22 +37,22 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/Services"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400 "
-          >
-            Services
-          </Link>
-          <Link
-            to="/listing"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
-          >
-            Listings
-          </Link>
-          <Link
             to="/about"
             className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
           >
             About
+          </Link>
+          <Link
+            to="/purchase"
+            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
+          >
+            Aircraft Purchase
+          </Link>
+          <Link
+            to="/Services"
+            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400 "
+          >
+            Services
           </Link>
 
           <Link
@@ -60,6 +60,24 @@ const Navbar = () => {
             className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
           >
             Contact
+          </Link>
+          <Link
+            to="/testimonials"
+            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
+          >
+            Testimonials
+          </Link>
+          <Link
+            to="/faqs"
+            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
+          >
+            FAQs
+          </Link>
+          <Link
+            to="/blog"
+            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
+          >
+            Blog
           </Link>
         </PopoverGroup>
       </nav>

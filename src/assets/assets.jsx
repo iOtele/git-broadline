@@ -51,3 +51,93 @@ export const Featured = [
     description: "Mid-size jet with exceptional comfort",
   },
 ];
+export const aircraftList = [
+  {
+    id: "g650",
+    name: "Gulfstream G650",
+    type: "Heavy Jet",
+    image: "/assets/g650.jpg",
+  },
+  {
+    id: "phenom300",
+    name: "Embraer Phenom 300",
+    type: "Light Jet",
+    image: "/assets/phenom300.jpg",
+  },
+  // Add more aircraft as needed
+];
+
+export const aircraftData = [
+  {
+    id: "g650",
+    name: "Gulfstream G650",
+    type: "Heavy Jet",
+    category: "Heavy Jet",
+    image: "/assets/g650.jpg",
+    overview:
+      "The Gulfstream G650 is a long-range business jet with exceptional luxury, comfort, and performance for global travel.",
+    details: [
+      "Max Range: 7,000 nm",
+      "Max Speed: Mach 0.925",
+      "Passengers: Up to 19",
+      "Cabin Height: 6'5''",
+      "Service Ceiling: 51,000 ft",
+    ],
+  },
+  {
+    id: "phenom300",
+    name: "Embraer Phenom 300",
+    type: "Light Jet",
+    category: "Light Jet",
+    image: "/assets/phenom300.jpg",
+    overview:
+      "The Phenom 300 offers the longest range and highest speed in its class. Designed for speed, comfort, and versatility.",
+    details: [
+      "Max Range: 2,000 nm",
+      "Max Speed: 518 mph",
+      "Passengers: 6-8",
+      "Cabin Height: 4'11''",
+      "Service Ceiling: 45,000 ft",
+    ],
+  },
+  {
+    id: "bell429",
+    name: "Bell 429",
+    type: "Helicopter",
+    category: "Helicopter",
+    image: "/assets/bell429.jpg",
+    overview:
+      "The Bell 429 is a twin-engine light utility helicopter known for its speed, range, and advanced avionics for VIP transport.",
+    details: [
+      "Max Range: 411 nm",
+      "Max Speed: 172 mph",
+      "Passengers: 6",
+      "Cabin Height: 4'5''",
+      "Service Ceiling: 20,000 ft",
+    ],
+  },
+];
+
+export const testimonialsData = [
+  {
+    id: 1,
+    clientName: "Jonathan Miles",
+    aircraft: "Gulfstream G650",
+    quote:
+      "Broadline Aviation made our aircraft acquisition seamless. Their expertise and discretion were top-tier.",
+  },
+  {
+    id: 2,
+    clientName: "GlobalCorp Aviation Division",
+    aircraft: "Fleet Acquisition (3 Phenom 300s)",
+    quote:
+      "The Broadline team delivered an unmatched, concierge-style service. Our fleet acquisition was handled flawlessly.",
+  },
+  {
+    id: 3,
+    clientName: "Sophia Carter",
+    aircraft: "Bell 429 Helicopter",
+    quote:
+      "From inspection to delivery, Broadline was exceptional. They truly raise the standard in private aviation.",
+  },
+];
