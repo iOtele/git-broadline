@@ -22,51 +22,43 @@ const Footer = () => {
         </div>
         <div className="flex flex-col flex-1">
           <h3 className="text-xl font-semibold mb-3 ">Quick Links</h3>
-          <ul className="flex flex-col gap-2">
-            <Link to="/services">
-              <li>Services</li>
-            </Link>
-            <Link to="/listings">
-              <li>Aircraft Listings</li>
-            </Link>
-            <Link to="/about">
-              <li>About</li>
-            </Link>
-            <Link to="/contact">
-              <li>Contact</li>
-            </Link>
-          </ul>
+          <div className="flex flex-col gap-2">
+            <Link to="/services">Services</Link>
+            <Link to="/listings">Aircraft Listings</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
         </div>
         <div className="flex flex-col flex-1">
           <h3 className="text-xl font-semibold mb-3">Contact Us</h3>
-          <ul className="flex flex-col gap-2">
-            <l1 className="flex gap-2 items-center">
+          <div className="flex flex-col gap-2">
+            <Link className="flex gap-2 items-center">
               <FaPhone /> <p>+1 (555) 123-4567</p>
-            </l1>
-            <l1 className="flex gap-2 items-center">
+            </Link>
+            <Link className="flex gap-2 items-center">
               <FaEnvelope /> <p>info@broadline.com</p>
-            </l1>
-          </ul>
+            </Link>
+          </div>
         </div>
         <div className="flex flex-col flex-1">
           <h3 className="text-xl font-semibold mb-3">Follow Us</h3>
-          <ul className="flex gap-2">
-            <Link>
-              <li>
-                <FaLinkedin />
-              </li>
+          <div className="flex gap-2">
+            <Link
+              to="https://www.linkedin.com/broadline_aviation"
+              target="_blank"
+            >
+              <FaLinkedin />
             </Link>{" "}
-            <Link>
-              <li>
-                <FaTwitter />
-              </li>
+            <Link to="https://www.x.com/broadline_aviation" target="_blank">
+              <FaTwitter />
             </Link>{" "}
-            <Link>
-              <li>
-                <FaInstagram />
-              </li>
+            <Link
+              to="https://www.instagram.com/broadline_aviation"
+              target="_blank"
+            >
+              <FaInstagram />
             </Link>{" "}
-          </ul>
+          </div>
         </div>
       </div>{" "}
       <div>

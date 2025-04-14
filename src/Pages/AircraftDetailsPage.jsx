@@ -10,7 +10,7 @@ const AircraftDetailsPage = () => {
   }
 
   return (
-    <div className="p-6">
+    <div className="flex flex-col items-center px-10 mt-5  shadow-black">
       <h2 className="text-4xl font-bold text-blue-900 mb-4">{aircraft.name}</h2>
       <img
         src={aircraft.image}
@@ -29,7 +29,7 @@ const AircraftDetailsPage = () => {
       </ul>
 
       <Link
-        to="/purchase"
+        to="/catalog"
         className="text-white bg-blue-900 px-6 py-3 rounded hover:bg-blue-800"
       >
         Back to Aircraft Listings

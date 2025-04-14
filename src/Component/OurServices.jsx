@@ -17,10 +17,10 @@ const OurServices = () => {
             <div>{service.icon}</div>
 
             <div className="bg-white rounded-lg text-gray-700">
-              <h2 className=" text-lg sm:text-xl   font-semibold mb-5">
+              <h2 className=" text-lg sm:text-2xl   font-semibold mb-5">
                 {service.title}
               </h2>
-              <span className="text-sm sm:text-lg text-gray-700">
+              <span className="text-sm sm:text-lg md:text-xl text-gray-700">
                 {service.description}
               </span>
             </div>

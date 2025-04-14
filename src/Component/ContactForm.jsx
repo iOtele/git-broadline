@@ -1,4 +1,5 @@
-const Contact = () => {
+import React from "react";
+const ContactForm = () => {
   return (
     <div className="max-w-4xl mx-auto p-6">
       <h2 className="text-4xl font-bold text-blue-900 mb-4">
@@ -9,8 +10,6 @@ const Contact = () => {
         acquisition solutions. Step into the world of private aviation — let’s
         begin the conversation.
       </p>
-
-      {/* Inquiry Form */}
       <form className="space-y-6">
         <div>
           <label className="block text-gray-700 font-medium mb-1">
@@ -74,38 +73,8 @@ const Contact = () => {
           Submit Inquiry
         </button>
       </form>
-
-      {/* Contact Info Panel */}
-      <div className="mt-10 border-t pt-6">
-        <h3 className="text-2xl font-semibold text-blue-800 mb-2">
-          Contact Info
-        </h3>
-        <p className="text-gray-700 mb-1">Phone: +1 786-860-7518</p>
-        <p className="text-gray-700 mb-1">
-          Email: Broadlineaviationcorp@gmail.com
-        </p>
-        <p className="text-gray-700">
-          Follow us on Instagram:{" "}
-          <a
-            href="https://instagram.com/broadline_aviation"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-700 underline"
-          >
-            @broadline_aviation
-          </a>
-        </p>
-      </div>
-
-      {/* Final CTA Banner */}
-      <div className="mt-10 p-6 bg-blue-900 text-white text-center rounded-lg">
-        <h3 className="text-2xl font-semibold mb-2">
-          A personalized aircraft journey starts here.
-        </h3>
-        <p>Let’s elevate your private aviation experience together.</p>
-      </div>
     </div>
   );
 };
 
-export default Contact;
+export default ContactForm;

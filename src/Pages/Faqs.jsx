@@ -1,7 +1,24 @@
-import React from "react";
+import { faqData } from "../assets/assets";
+import FAQItem from "../Component/FAQItem";
 
-const Faqs = () => {
-  return <div>Faqs</div>;
+const FAQ = () => {
+  return (
+    <div className="max-w-4xl mx-auto p-6">
+      <h2 className="text-4xl font-bold text-blue-900 mb-6">
+        Frequently Asked Questions
+      </h2>
+      <p className="text-gray-700 mb-8">
+        Got a question? We've compiled answers to the most common inquiries
+        about our aircraft acquisition and inspection services.
+      </p>
+
+      <div className="space-y-4">
+        {faqData.map((faq) => (
+          <FAQItem key={faq.id} faq={faq} />
+        ))}
+      </div>
+    </div>
+  );
 };
 
-export default Faqs;
+export default FAQ;

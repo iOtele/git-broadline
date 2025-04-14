@@ -21,15 +21,15 @@ const Team = () => {
               src={feature.image}
               alt={feature.description}
             />
-            <div className="bg-white px-4 pt-4 rounded-lg ">
-              <h2 className=" max-sm:text-2xl font-semibold">
+            <div className="bg-white rounded-lg text-gray-700">
+              <h2 className=" text-lg sm:text-2xl   font-semibold mb-3">
                 {feature.title}
               </h2>
-              <p className="text-sm sm:text-lg text-gray-700">
+              <p className="text-sm sm:text-lg  text-gray-700">
                 {feature.description}
               </p>
             </div>
-            <span className="flex items-center px-4 gap-2 text-blue font-semibold cursor-pointer">
+            <span className="flex items-center  gap-2 text-blue font-semibold cursor-pointer">
               Learn More <FaArrowRightLong />
             </span>
           </div>

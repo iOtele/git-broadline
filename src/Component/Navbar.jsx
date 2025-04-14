@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <nav
         aria-label="Global"
-        className="bg-white sticky top-0 z-40 flex  max-sm:backdrop-blur-sm max-sm:posit  items-center justify-between px-5 sm:px-10 h-20 w-full"
+        className="bg-white sticky top-0 z-40 flex  max-sm:backdrop-blur-sm max-sm:posit items-center justify-between px-5 sm:px-10 h-20 w-full"
       >
         <div className="flex lg:flex-1">
           <Link to="/">
@@ -29,53 +29,186 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <PopoverGroup className="hidden items-center lg:flex lg:gap-x-5">
-          <Link
-            to="/"
-            className="text-sm/6 px-2 font-semibold text-gray-900 hover:text-gray-400"
-          >
-            Home
-          </Link>
-          <Link
-            to="/about"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
-          >
-            About
-          </Link>
-          <Link
-            to="/purchase"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
-          >
-            Aircraft Purchase
-          </Link>
-          <Link
-            to="/Services"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400 "
-          >
-            Services
-          </Link>
+        <PopoverGroup className="hidden items-center lg:flex lg:gap-x-5 uppercase">
+          <div className="group relative cursor-pointer py-2 ">
+            <Link
+              to="/"
+              className="text-sm/6 px-2 font-medium text-gray-900 hover:text-gray-400 transition-all duration-300 ease-in-out"
+              onClick=""
+            >
+              HOME
+            </Link>
+            <div className="absolute left-0 mt-2 w-40 hidden group-hover:block transition-all duration-300 ease-in-out bg-gray-100 shadow-lg rounded z-50">
+              <div className="flex flex-col py-2 px-4 text-gray-800">
+                <Link
+                  to="/home/career"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray   transition-colors duration-200"
+                >
+                  Career
+                </Link>
+                <Link
+                  to="/home/client-portal"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Client Portal
+                </Link>
+                <Link
+                  to="/home/privacy-policy"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Privacy Policy
+                </Link>
+              </div>
+            </div>
+          </div>
 
+          <div className="group relative cursor-pointer py-2">
+            <Link
+              to="/catalog"
+              className="text-sm/6 px-2 font-medium text-gray-900 hover:text-gray-400"
+            >
+              AirCraft Catalog
+            </Link>
+
+            <div className="absolute left-0 mt-2 w-40 hidden group-hover:block transition-all duration-300 bg-gray-100 shadow-lg rounded z-50">
+              <div className="flex flex-col py-2 px-4 text-gray-800">
+                <Link
+                  to="/purchase/helicopters"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Helicopters
+                </Link>
+                <Link
+                  to="/purchase/light-jets"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Light Jets
+                </Link>
+                <Link
+                  to="/purchase/midsize-jets"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Midsize Jets
+                </Link>
+                <Link
+                  to="/purchase/heavy-jets"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Heavy Jets
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="group relative cursor-pointer py-2">
+            <Link
+              to="/services"
+              className="text-sm/6 px-2 font-medium text-gray-900 hover:text-gray-400"
+            >
+              Services
+            </Link>
+
+            <div className="absolute left-0 mt-2 w-48 hidden group-hover:block transition-all duration-300 ease-in-out bg-gray-100 shadow-lg rounded z-50">
+              <div className="flex flex-col py-2 px-4 text-gray-800">
+                <Link
+                  to="/services/fleet-acquisition"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Fleet Acquisition
+                </Link>
+                <Link
+                  to="/services/custom-interior"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Custom Interior Advisory
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="group relative cursor-pointer py-2">
+            <Link
+              to="/about-us"
+              className="text-sm/6 px-2 font-medium text-gray-900 hover:text-gray-400"
+            >
+              About Us
+            </Link>
+
+            <div className="absolute left-0 mt-2 w-44 hidden group-hover:block transition-all duration-300 bg-gray-100 ease-in-out shadow-lg rounded z-50">
+              <div className="flex flex-col py-2 px-4 text-gray-800">
+                <Link
+                  to="/about-us/our-story"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Our Story
+                </Link>
+                <Link
+                  to="/about-us/team"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Meet the Team
+                </Link>
+                <Link
+                  to="/about-us/our-standards"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Our Standards
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="group relative cursor-pointer py-2">
+            <Link
+              to="/testimonials"
+              className="text-sm/6 px-2 font-medium text-gray-900 hover:text-gray-400"
+            >
+              Testimonials
+            </Link>
+
+            <div className="absolute left-0 mt-2 w-40 hidden group-hover:block transition-all duration-300 bg-gray-100 shadow-lg rounded z-50">
+              <div className="flex flex-col py-2 px-4 text-gray-800">
+                <Link
+                  to="/testimonials/client-story"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Client Story
+                </Link>
+                <Link
+                  to="/testimonials/case-study"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  Case Studies
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="group relative cursor-pointer py-2">
+            <Link
+              to="/faqs"
+              className="text-sm/6 px-2 font-medium text-gray-900 hover:text-gray-400"
+            >
+              FAQs
+            </Link>
+
+            <div className="absolute left-0 mt-2 w-40 opacity-0 group-hover:opacity-0 transition-opacity duration-300 bg-gray-100 shadow-lg rounded z-50">
+              <div className="flex flex-col py-2 px-4 text-gray-800">
+                <Link
+                  to="/faqs/faq"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray"
+                >
+                  FAQ
+                </Link>
+              </div>
+            </div>
+          </div>
           <Link
             to="/contact"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
+            className="text-sm/6 px-2 font-medium text-gray-900  hover:text-gray-400"
           >
             Contact
           </Link>
-          <Link
-            to="/testimonials"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
-          >
-            Testimonials
-          </Link>
-          <Link
-            to="/faqs"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
-          >
-            FAQs
-          </Link>
+
           <Link
             to="/blog"
-            className="text-sm/6 px-2 font-semibold text-gray-900  hover:text-gray-400"
+            className="text-sm/6 px-2 font-medium text-gray-900  hover:text-gray-400"
           >
             Blog
           </Link>
@@ -103,34 +236,34 @@ const Navbar = () => {
                 <Link
                   to="/"
                   onClick={() => setMobileMenuOpen(false)}
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-bold hover:text-gray-900 text-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-medium hover:text-gray-900 text-gray-50"
                 >
                   Home
                 </Link>
                 <Link
                   to="/services"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-bold hover hover:text-gray-900 text-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium hover hover:text-gray-900 text-gray-50"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Services
                 </Link>
                 <Link
                   to="/listing"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-bold hover:text-gray-900 text-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium hover:text-gray-900 text-gray-50"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Listings
                 </Link>
                 <Link
                   to="/about"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-bold hover:text-gray-900 text-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium hover:text-gray-900 text-gray-50"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   About
                 </Link>
                 <Link
                   to="/contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-bold hover:text-gray-900 text-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium hover:text-gray-900 text-gray-50"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   Contact
