@@ -39,13 +39,15 @@ const AircraftCatalog = () => {
       </div>
       <div className="flex flex-col items-center justify-center py-10 px-7 md:px-11 mt-5 shadow-black">
         <div className="flex flex-wrap gap-4 mb-8 items-center">
-          <input
-            type="text"
-            placeholder="Search aircraft name..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
-          />
+          <div className="flex flex-col md:flex-row items-center">
+            <input
+              type="text"
+              placeholder="Search aircraft name..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            />
+          </div>
 
           {/* Category Filter */}
           {["All", "Private Jet", "Helicopter"].map((category) => (
@@ -54,7 +56,7 @@ const AircraftCatalog = () => {
               onClick={() => setSelectedCategory(category)}
               className={`px-4 py-2 rounded ${
                 selectedCategory === category
-                  ? "bg-blue-900 text-white"
+                  ? "bg-blue text-white"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
             >
@@ -70,7 +72,7 @@ const AircraftCatalog = () => {
                 onClick={() => setSelectedType(type)}
                 className={`px-4 py-2 rounded ${
                   selectedType === type
-                    ? "bg-blue-900 text-white"
+                    ? "bg-blue text-white"
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                 }`}
               >

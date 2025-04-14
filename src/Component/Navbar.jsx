@@ -33,16 +33,15 @@ const Navbar = () => {
           <div className="group relative cursor-pointer py-2 ">
             <Link
               to="/"
-              className="text-sm/6 px-2 font-medium text-gray-900 hover:text-gray-400 transition-all duration-300 ease-in-out"
-              onClick=""
+              className="text-sm/6 px-2 font-medium text-gray-900 hover:text-gray-400 "
             >
               HOME
             </Link>
-            <div className="absolute left-0 mt-2 w-40 hidden group-hover:block transition-all duration-300 ease-in-out bg-gray-100 shadow-lg rounded z-50">
-              <div className="flex flex-col py-2 px-4 text-gray-800">
+            <div className="absolute left-0 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-600 ease-in-out bg-gray-100 shadow-lg rounded z-50">
+              <div className="flex flex-col py-2 px-4 text-gray-800 ">
                 <Link
                   to="/home/career"
-                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray   transition-colors duration-200"
+                  className="block py-1 border-b border-gray-200 text-gray-600 font-medium hover:text-gray transition-colors duration-200"
                 >
                   Career
                 </Link>
@@ -70,7 +69,7 @@ const Navbar = () => {
               AirCraft Catalog
             </Link>
 
-            <div className="absolute left-0 mt-2 w-40 hidden group-hover:block transition-all duration-300 bg-gray-100 shadow-lg rounded z-50">
+            <div className="absolute left-0 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-600 ease-in-out bg-gray-100 shadow-lg rounded z-50">
               <div className="flex flex-col py-2 px-4 text-gray-800">
                 <Link
                   to="/purchase/helicopters"
@@ -107,7 +106,7 @@ const Navbar = () => {
               Services
             </Link>
 
-            <div className="absolute left-0 mt-2 w-48 hidden group-hover:block transition-all duration-300 ease-in-out bg-gray-100 shadow-lg rounded z-50">
+            <div className="absolute left-0 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-600 ease-in-out bg-gray-100 shadow-lg rounded z-50">
               <div className="flex flex-col py-2 px-4 text-gray-800">
                 <Link
                   to="/services/fleet-acquisition"
@@ -132,7 +131,7 @@ const Navbar = () => {
               About Us
             </Link>
 
-            <div className="absolute left-0 mt-2 w-44 hidden group-hover:block transition-all duration-300 bg-gray-100 ease-in-out shadow-lg rounded z-50">
+            <div className="absolute left-0 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-600 ease-in-out bg-gray-100 shadow-lg rounded z-50">
               <div className="flex flex-col py-2 px-4 text-gray-800">
                 <Link
                   to="/about-us/our-story"
@@ -163,7 +162,7 @@ const Navbar = () => {
               Testimonials
             </Link>
 
-            <div className="absolute left-0 mt-2 w-40 hidden group-hover:block transition-all duration-300 bg-gray-100 shadow-lg rounded z-50">
+            <div className="absolute left-0 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-600 ease-in-out bg-gray-100 shadow-lg rounded z-50">
               <div className="flex flex-col py-2 px-4 text-gray-800">
                 <Link
                   to="/testimonials/client-story"
@@ -188,7 +187,7 @@ const Navbar = () => {
               FAQs
             </Link>
 
-            <div className="absolute left-0 mt-2 w-40 opacity-0 group-hover:opacity-0 transition-opacity duration-300 bg-gray-100 shadow-lg rounded z-50">
+            <div className="absolute left-0 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-600 ease-in-out bg-gray-100 shadow-lg rounded z-50">
               <div className="flex flex-col py-2 px-4 text-gray-800">
                 <Link
                   to="/faqs/faq"

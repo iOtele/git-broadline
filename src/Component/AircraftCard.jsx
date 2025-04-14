@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const AircraftCard = ({ aircraft }) => {
   return (
-    <div className="rounded-lg overflow-hidden shadow-lg shadow-blue-400 hover:shadow-lg transition">
+    <div className="rounded-lg overflow-hidden shadow shadow-gray-300 hover:scale-105 hover:shadow-xl transition-all duration-300">
       <img
         src={aircraft.image}
         alt={aircraft.name}
         className="w-full h-56 object-cover"
       />
-      <div className="p-4">
+      <div className="p-2 pb-4">
         <h3 className="text-xl font-semibold mb-2 text-blue ">
           {aircraft.name}
         </h3>
