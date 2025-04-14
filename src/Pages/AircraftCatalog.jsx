@@ -1,6 +1,5 @@
 import { useState, useContext } from "react";
 import AircraftCard from "../Component/AircraftCard";
-// import { aircraftData } from "../assets/assets";
 import ContactForm from "../Component/ContactForm";
 import { assets } from "../assets/assets";
 import { StoreContext } from "../Context/StoreContext";
