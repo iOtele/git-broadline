@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Assets } from "../assets/Assets";
-import { StoreContext } from "../Context/StoreContext";
-import OurServices from "../Component/OurServices";
+// import { StoreContext } from "../Context/StoreContext";
+// import OurServices from "../Component/OurServices";
 
 const Services = () => {
-  const { Services } = useContext(StoreContext);
+  // const { Services } = useContext(StoreContext);
 
   return (
     <>
