@@ -13,7 +13,7 @@ import { FaCableCar, FaPlane } from "react-icons/fa6";
 import { FaClipboardCheck } from "react-icons/fa6";
 import { FaHeadset } from "react-icons/fa6";
 
-export const Assets = {
+export const assets = {
   Hero_img,
   Hero_img_1,
   Hero_img_2,
@@ -26,7 +26,7 @@ export const Assets = {
   aircraft_5,
 };
 
-export const Services = [
+export const services = [
   {
     icon: <FaPlane size={25} />,
     title: "Aircraft pre-purchase",
@@ -53,7 +53,7 @@ export const Services = [
   },
 ];
 
-export const Featured = [
+export const featured = [
   {
     image: aircraft_1,
     title: "Gulfstream G650",
@@ -75,21 +75,22 @@ export const Featured = [
     description: "Revolutionary long-range business jet",
   },
 ];
-export const aircraftList = [
-  {
-    id: "g650",
-    name: "Gulfstream G650",
-    type: "Heavy Jet",
-    image: aircraft_1,
-  },
-  {
-    id: "phenom300",
-    name: "Embraer Phenom 300",
-    type: "Light Jet",
-    image: aircraft_2,
-  },
-  // Add more aircraft as needed
-];
+
+// export const aircraftList = [
+//   {
+//     id: "g650",
+//     name: "Gulfstream G650",
+//     type: "Heavy Jet",
+//     image: aircraft_1,
+//   },
+//   {
+//     id: "phenom300",
+//     name: "Embraer Phenom 300",
+//     type: "Light Jet",
+//     image: aircraft_2,
+//   },
+//   // Add more aircraft as needed
+// ];
 
 export const aircraftData = [
   // Private Jets
@@ -184,6 +185,7 @@ export const aircraftData = [
     details: [],
   },
 ];
+
 export const faqData = [
   {
     id: 1,

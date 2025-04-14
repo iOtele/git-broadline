@@ -1,12 +1,12 @@
 import React from "react";
-import { Assets } from "../assets/assets";
+import { assets } from "../assets/assets";
 
 const About = () => {
   return (
     <div>
       <div className="w-full relative">
         <img
-          src={Assets.Hero_img_1}
+          src={assets.Hero_img_1}
           className="sm:h-[50vh] h-screen w-full opacity-50"
           alt=""
         />{" "}
@@ -37,7 +37,7 @@ const About = () => {
             world-class service.
           </h1>
           <img
-            src={Assets.aircraft_4}
+            src={assets.aircraft_4}
             alt=""
             className="md:w-80 md:h-80 flex-1 rounded-md shadow-lg object-cover"
           />

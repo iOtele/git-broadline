@@ -1,11 +1,11 @@
 import React from "react";
-import { Assets } from "../assets/assets";
+import { assets } from "../assets/Assets";
 
 const Header = () => {
   return (
     <div className="w-full relative">
       <img
-        src={Assets.Hero_img}
+        src={assets.Hero_img}
         className="sm:h-[95vh] h-screen w-full "
         alt=""
       />

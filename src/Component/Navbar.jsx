@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
-import { Assets } from "../assets/assets";
+import { assets } from "../assets/assets";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
       >
         <div className="flex lg:flex-1">
           <Link to="/">
-            <img src={Assets.Logo_1} alt="" className="p-1.5 w-20 h-20" />
+            <img src={assets.Logo_1} alt="" className="p-1.5 w-20 h-20" />
           </Link>
         </div>
         <div className="flex justify-between gap-6">

@@ -1,13 +1,13 @@
 import React from "react";
 import ContactForm from "../Component/ContactForm";
-import { Assets } from "../assets/Assets";
+import { assets } from "../assets/assets";
 
 const Contact = () => {
   return (
     <>
       <div className="w-full relative">
         <img
-          src={Assets.Hero_img_4}
+          src={assets.Hero_img_4}
           className="sm:h-[50vh] h-screen w-full opacity-50"
           alt=""
         />{" "}

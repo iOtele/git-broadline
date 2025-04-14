@@ -1,12 +1,21 @@
 import { createContext } from "react";
-import { Featured, Services } from "../assets/assets";
+import {
+  featured,
+  services,
+  aircraftData,
+  faqData,
+  testimonialsData,
+} from "../assets/assets";
 
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = ({ children }) => {
   const contextValue = {
-    Services,
-    Featured,
+    services,
+    featured,
+    aircraftData,
+    faqData,
+    testimonialsData,
   };
   return (
     <StoreContext.Provider value={contextValue}>

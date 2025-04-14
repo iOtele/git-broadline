@@ -1,7 +1,9 @@
+import React, { useContext } from "react";
 import TestimonialCard from "../Component/TestimonialCard";
-import { testimonialsData } from "../assets/assets";
+import { StoreContext } from "../Context/StoreContext";
 
 const Testimonials = () => {
+  const { testimonialsData } = useContext(StoreContext);
   return (
     <div className="max-w-5xl mx-auto p-6">
       <h2 className="text-4xl font-bold text-blue-900 mb-4">Client Stories</h2>

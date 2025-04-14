@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import AircraftCard from "../Component/AircraftCard";
-import { aircraftData } from "../assets/assets";
+// import { aircraftData } from "../assets/assets";
 import ContactForm from "../Component/ContactForm";
-import { Assets } from "../assets/assets";
+import { assets } from "../assets/assets";
+import { StoreContext } from "../Context/StoreContext";
 
 const AircraftCatalog = () => {
+  const { aircraftData } = useContext(StoreContext);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedType, setSelectedType] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
@@ -26,7 +28,7 @@ const AircraftCatalog = () => {
     <>
       <div className="w-full relative">
         <img
-          src={Assets.Hero_img_1}
+          src={assets.Hero_img_1}
           className="sm:h-[50vh] h-screen w-full opacity-50"
           alt=""
         />{" "}

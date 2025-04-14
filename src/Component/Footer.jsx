@@ -1,5 +1,5 @@
 import React from "react";
-import { Assets } from "../assets/assets";
+import { assets } from "../assets/assets";
 import {
   FaInstagram,
   FaPhone,
@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="bg-blue-950 flex max-sm:flex-col  justify-between gap-6 decoration-0 text-gray-400 p-6 sm:px-11">
         <div className="flex flex-col">
           <Link to="/">
-            <img src={Assets.Logo_1} alt="" className=" p-1 w-20 h-20 " />
+            <img src={assets.Logo_1} alt="" className=" p-1 w-20 h-20 " />
           </Link>
           <p>Leading the way in private aviation excellence since 2025</p>
         </div>

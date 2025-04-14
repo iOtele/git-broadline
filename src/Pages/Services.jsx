@@ -1,16 +1,12 @@
 import React from "react";
-import { Assets } from "../assets/Assets";
-// import { StoreContext } from "../Context/StoreContext";
-// import OurServices from "../Component/OurServices";
+import { assets } from "../assets/assets";
 
-const Services = () => {
-  // const { Services } = useContext(StoreContext);
-
+const Service = () => {
   return (
     <>
       <div className="w-full relative">
         <img
-          src={Assets.Hero_img_2}
+          src={assets.Hero_img_2}
           className="sm:h-[50vh] h-screen w-full opacity-50"
           alt=""
         />
@@ -28,4 +24,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Service;
