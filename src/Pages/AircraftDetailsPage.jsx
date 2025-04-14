@@ -1,8 +1,8 @@
 import { useParams, useContext, Link } from "react-router-dom";
 import React from "react";
-import { StoreComtext } from "../Context/StoreContext";
+import { StoreContext } from "../Context/StoreContext";
 const AircraftDetailsPage = () => {
-  const { aircraftData } = useContext(StoreComtext);
+  const { aircraftData } = useContext(StoreContext);
   const { id } = useParams();
   const aircraft = aircraftData.find((item) => item.id === id);
 
