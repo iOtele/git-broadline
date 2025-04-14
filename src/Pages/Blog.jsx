@@ -1,7 +1,9 @@
-import { blogData } from "../assets/Assets";
 import BlogCard from "../Component/BlogCard";
+import React, { useContext } from "react";
+import { StoreContext } from "../Context/StoreContext";
 
 const Blog = () => {
+  const { blogData } = useContext(StoreContext);
   return (
     <div className="max-w-6xl mx-auto p-6">
       <h2 className="text-4xl font-bold text-blue-900 mb-4">

@@ -14,11 +14,14 @@ const Footer = () => {
     <>
       {" "}
       <div className="bg-blue-950 flex max-sm:flex-col  justify-between gap-6 decoration-0 text-gray-400 p-6 sm:px-11">
-        <div className="flex flex-col">
+        <div className="flex flex-col flex-1">
           <Link to="/">
             <img src={assets.Logo_1} alt="" className=" p-1 w-20 h-20 " />
           </Link>
-          <p>Leading the way in private aviation excellence since 2025</p>
+          <p>
+            Leading the way in private aviation excellence <br />
+            since 2025
+          </p>
         </div>
         <div className="flex flex-col flex-1">
           <h3 className="text-xl font-semibold mb-3 ">Quick Links</h3>

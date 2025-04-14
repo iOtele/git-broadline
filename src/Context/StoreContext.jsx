@@ -5,6 +5,7 @@ import {
   aircraftData,
   faqData,
   testimonialsData,
+  blogData,
 } from "../assets/assets";
 
 export const StoreContext = createContext(null);
@@ -16,6 +17,7 @@ const StoreContextProvider = ({ children }) => {
     aircraftData,
     faqData,
     testimonialsData,
+    blogData,
   };
   return (
     <StoreContext.Provider value={contextValue}>

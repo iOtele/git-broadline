@@ -38,7 +38,7 @@ const AircraftCatalog = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-col items-center py-10 mt-5 shadow-black">
+      <div className="flex flex-col items-center justify-center py-10 px-7 md:px-11 mt-5 shadow-black">
         <div className="flex flex-wrap gap-4 mb-8 items-center">
           <input
             type="text"
@@ -82,7 +82,7 @@ const AircraftCatalog = () => {
         </div>
 
         {/* Aircraft Grid */}
-        <div className="grid place-items-center md:grid-cols-4 sm:px-11 px-7 gap-6 ">
+        <div className="grid place-items-center md:grid-cols-4   gap-6  ">
           {filteredAircraft.length > 0 ? (
             filteredAircraft.map((aircraft) => (
               <AircraftCard key={aircraft.id} aircraft={aircraft} />
