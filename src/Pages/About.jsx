@@ -46,20 +46,20 @@ const About = () => {
           />
         </div>
         <div className="flex flex-col items-center w-full gap-6">
-          <h2 className="flex flex-col text-3xl text-center md:flex-row gap-6 w-full md:justify-center md:items-center">
+          <h2 className="flex flex-col text-2xl text-center md:flex-row w-full mt-5 md:justify-center md:items-center">
             Core Values
           </h2>
-          <div className="flex flex-col md:flex-row gap-6 w-full md:justify-around md:items-center border-l-2 border-blue-900 rounded-md p-7 shadow-sm shadow-blue-900 ">
-            <h4 className="flex text-3xl lg:text-4xl border border-gray-400 rounded-full hover:bg-blue hover:text-white p-4 px-10 box-shadow-lg shadow-lg transition-color duration-400 ease-in-out">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full md:justify-around md:items-center  border-blue-900 rounded-md p-5  shadow-sm shadow-blue-200 ">
+            <h4 className="flex text-3xl justify-center  lg:text-4xl border border-gray-200 rounded-full hover:bg-blue hover:text-white p-3 px-5 md:px-5 box-shadow-lg shadow-sm transition-color duration-400 ease-in-out">
               Precision
             </h4>
-            <h4 className="flex text-3xl lg:text-4xl border border-gray-400 rounded-full hover:bg-blue hover:text-white p-4 px-10 box-shadow-lg shadow-lg transition-color duration-500 ease-in-out">
+            <h4 className="flex text-3xl justify-center  lg:text-4xl border border-gray-200 rounded-full hover:bg-blue hover:text-white p-3 px-5 md:px-5 box-shadow-lg shadow-sm transition-color duration-400 ease-in-out">
               Discretion
             </h4>
-            <h4 className="flex text-3xl lg:text-4xl border border-gray-400 rounded-full hover:bg-blue hover:text-white p-4 px-10 box-shadow-lg shadow-lg transition-color duration-500 ease-in-out">
+            <h4 className="flex text-3xl justify-center  lg:text-4xl border border-gray-200 rounded-full hover:bg-blue hover:text-white p-3 px-5 md:px-5 box-shadow-lg shadow-sm transition-color duration-400 ease-in-out">
               Exellence
             </h4>
-            <h4 className="flex text-3xl lg:text-4xl border border-gray-400 rounded-full hover:bg-blue hover:text-white p-4 px-10 box-shadow-lg shadow-lg transition-color duration-500 ease-in-out">
+            <h4 className="flex text-3xl justify-center  lg:text-4xl border border-gray-200 rounded-full hover:bg-blue hover:text-white p-3 px-5 md:px-5 box-shadow-lg shadow-sm transition-color duration-400 ease-in-out">
               Trust
             </h4>
           </div>
