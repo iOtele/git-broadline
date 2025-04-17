@@ -14,9 +14,12 @@ const About = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-blue-900 mb-6">
             About Us
           </h2>
+          <p className="text-lg md:text-2xl text-white text-center font-semibold">
+            The Broadline standard
+          </p>
         </div>
       </div>
-      <div className="flex justify-center items-center  gap-6 max-sm:flex-col px-7 sm:px-11 w-full pt-6 pb-6">
+      <div className="flex justify-center items-center  gap-6 flex-col px-7 sm:px-11 w-full pt-6 pb-6">
         <div className="flex flex-col md:flex-row gap-6 max-sm:gap-4 w-full max-sm:items-center md:justify-center md:items-center">
           <h1 className="flex-1 pr-10 ">
             <span className="text-blue text-2xl">A </span>Broadline Aviation was
@@ -42,9 +45,29 @@ const About = () => {
             className="md:w-80 md:h-80 flex-1 rounded-md shadow-lg object-cover"
           />
         </div>
+        <div className="flex flex-col items-center w-full gap-6">
+          <h2 className="flex flex-col text-3xl text-center md:flex-row gap-6 w-full md:justify-center md:items-center">
+            Core Values
+          </h2>
+          <div className="flex flex-col md:flex-row gap-6 w-full md:justify-around md:items-center border-l-2 border-blue-900 rounded-md p-7 shadow-sm shadow-blue-900 ">
+            <h4 className="flex text-3xl lg:text-4xl border border-gray-400 rounded-full hover:bg-blue hover:text-white p-4 px-10 box-shadow-lg shadow-lg transition-color duration-400 ease-in-out">
+              Precision
+            </h4>
+            <h4 className="flex text-3xl lg:text-4xl border border-gray-400 rounded-full hover:bg-blue hover:text-white p-4 px-10 box-shadow-lg shadow-lg transition-color duration-500 ease-in-out">
+              Discretion
+            </h4>
+            <h4 className="flex text-3xl lg:text-4xl border border-gray-400 rounded-full hover:bg-blue hover:text-white p-4 px-10 box-shadow-lg shadow-lg transition-color duration-500 ease-in-out">
+              Exellence
+            </h4>
+            <h4 className="flex text-3xl lg:text-4xl border border-gray-400 rounded-full hover:bg-blue hover:text-white p-4 px-10 box-shadow-lg shadow-lg transition-color duration-500 ease-in-out">
+              Trust
+            </h4>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
+``;
 
 export default About;
