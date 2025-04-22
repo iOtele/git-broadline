@@ -46,7 +46,7 @@ const About = () => {
           />
         </div>
         <div className="flex flex-col items-center w-full gap-6">
-          <h2 className="flex flex-col text-2xl text-center md:flex-row w-full mt-5 md:justify-center md:items-center">
+          <h2 className="w-full flex flex-col  md:flex-row mt-5 md:justify-center md:items-center    text-3xl font-semibold  text-center ">
             Core Values
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full md:justify-around md:items-center  border-blue-900 rounded-md p-5  shadow-sm shadow-blue-200 ">
